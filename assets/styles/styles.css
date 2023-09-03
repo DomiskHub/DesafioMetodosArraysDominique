@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #d6d6d6;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 5px;
+  width: 800px;
+  height: 500px;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 24px;
+}
+
+#input {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  padding: 10px;
+  background-color: #b118f8b9;
+  color: #fff;
+  border: bold;
+  border-radius: 1px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(110, 24, 163);
+}
+
+.total-task {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  margin-left: 40px;
+  margin-top: 40px;
+  font-size: 20px;
+}
+
+.tarea-div {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  align-items: center;
+}
+
+.tarea-div p {
+  margin-right: 10px;
+}
+
+.tarea-div input {
+  width: 20px;
+  height: 20px;
+}
+
+.total-list {
+  display: flex;
+  justify-content: space-between;
+}
